@@ -45,14 +45,14 @@ const SPEAKERS = [
 ];
 
 const ORGANIZERS = [
-  { name: "You (Neil) Zhang", role: "Lead Organizer", affiliation: "Dolby Laboratories · Telecom Paris", image: "/images/organizer-you-neil-zhang_dcc59d3b.jpg" },
-  { name: "Sun Jiachen Luo", role: "Co-organizer", affiliation: "Technical University of Munich", image: "/images/organizer-sun-jiachen-luo_8c156803.jpg" },
-  { name: "Minglun Han", role: "Program Chair", affiliation: "ByteDance Seed", image: "/images/organizer-minglun-han_fd003625.jpg" },
-  { name: "Tianyu Shi", role: "Co-organizer", affiliation: "McGill University", image: "/images/organizer-tianyu-shi_6e081234.jpg" },
-  { name: "Dongchao Yang", role: "Co-organizer", affiliation: "The Chinese University of Hong Kong", image: "/images/organizer-dongchao-yang_0eab3fdd.jpg" },
-  { name: "Jingyao Wu", role: "Co-organizer", affiliation: "MIT", image: "/images/organizer-jingyao-wu_64109546.jpg" },
-  { name: "Shengpeng Ji", role: "Co-organizer", affiliation: "Tencent Hunyuan", image: "/images/organizer-shengpeng-ji_08146693.jpg" },
-  { name: "Xiulong Liu", role: "Co-organizer", affiliation: "Apple", image: "/images/organizer-xiulong-liu_6c5f2ec3.jpg" },
+  { name: "You (Neil) Zhang", affiliation: "Dolby Laboratories · Telecom Paris", image: "/images/organizer-you-neil-zhang_dcc59d3b.jpg" },
+  { name: "Sun Jiachen Luo", affiliation: "Technical University of Munich", image: "/images/organizer-sun-jiachen-luo_8c156803.jpg" },
+  { name: "Minglun Han", affiliation: "ByteDance Seed", image: "/images/organizer-minglun-han_fd003625.jpg" },
+  { name: "Tianyu Shi", affiliation: "McGill University", image: "/images/organizer-tianyu-shi_6e081234.jpg" },
+  { name: "Dongchao Yang", affiliation: "The Chinese University of Hong Kong", image: "/images/organizer-dongchao-yang_0eab3fdd.jpg" },
+  { name: "Jingyao Wu", affiliation: "MIT", image: "/images/organizer-jingyao-wu_64109546.jpg" },
+  { name: "Shengpeng Ji", affiliation: "Tencent Hunyuan", image: "/images/organizer-shengpeng-ji_08146693.jpg" },
+  { name: "Xiulong Liu", affiliation: "Apple", image: "/images/organizer-xiulong-liu_6c5f2ec3.jpg" },
 ];
 
 const ADVISORS = [
@@ -142,7 +142,7 @@ export default function Home() {
 
           <section className="conference-section" id="organizers">
             <SectionTitle>Organizing Committee</SectionTitle>
-            <div className="conference-people-grid">{ORGANIZERS.map((person) => <article className="conference-person-card" key={person.name}><img src={person.image} alt={person.name} loading="lazy" /><div><h3>{person.name}</h3><p className="conference-role">{person.role}</p><p>{person.affiliation}</p></div></article>)}</div>
+            <div className="conference-people-grid">{ORGANIZERS.map((person) => <article className="conference-person-card" key={person.name}><img src={person.image} alt={person.name} loading="lazy" /><div><h3>{person.name}</h3><p>{person.affiliation}</p></div></article>)}</div>
           </section>
 
           <section className="conference-section" id="advisors">
