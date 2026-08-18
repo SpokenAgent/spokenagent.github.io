@@ -38,27 +38,27 @@ const PROGRAM = [
 ];
 
 const SPEAKERS = [
-  { name: "Dong Yu", affiliation: "Capital One", image: "/manus-storage/speaker-dong-yu_1d1390dd.jpg" },
-  { name: "Daniel Povey", affiliation: "Xiaomi", image: "/manus-storage/speaker-daniel-povey_20c6cbce.webp" },
-  { name: "Abdelrahman Mohamed", affiliation: "Meta", image: "/manus-storage/speaker-abdelrahman-mohamed_2c4a185f.jpg" },
-  { name: "Berrak Sisman", affiliation: "Johns Hopkins University", image: "/manus-storage/berrak-sisman_71dfa05c.jpg" },
+  { name: "Dong Yu", affiliation: "Capital One", image: "/images/speaker-dong-yu_1d1390dd.jpg" },
+  { name: "Daniel Povey", affiliation: "Xiaomi", image: "/images/speaker-daniel-povey_20c6cbce.webp" },
+  { name: "Abdelrahman Mohamed", affiliation: "Meta", image: "/images/speaker-abdelrahman-mohamed_2c4a185f.jpg" },
+  { name: "Berrak Sisman", affiliation: "Johns Hopkins University", image: "/images/berrak-sisman_71dfa05c.jpg" },
 ];
 
 const ORGANIZERS = [
-  { name: "You (Neil) Zhang", role: "Lead Organizer", affiliation: "Dolby Laboratories · Telecom Paris", image: "/manus-storage/organizer-you-neil-zhang_dcc59d3b.jpg" },
-  { name: "Sun Jiachen Luo", role: "Co-organizer", affiliation: "Technical University of Munich", image: "/manus-storage/organizer-sun-jiachen-luo_8c156803.jpg" },
-  { name: "Minglun Han", role: "Program Chair", affiliation: "ByteDance Seed", image: "/manus-storage/organizer-minglun-han_fd003625.jpg" },
-  { name: "Tianyu Shi", role: "Co-organizer", affiliation: "McGill University", image: "/manus-storage/organizer-tianyu-shi_6e081234.jpg" },
-  { name: "Dongchao Yang", role: "Co-organizer", affiliation: "The Chinese University of Hong Kong", image: "/manus-storage/organizer-dongchao-yang_0eab3fdd.jpg" },
-  { name: "Jingyao Wu", role: "Co-organizer", affiliation: "MIT", image: "/manus-storage/organizer-jingyao-wu_64109546.jpg" },
-  { name: "Shengpeng Ji", role: "Co-organizer", affiliation: "Tencent Hunyuan", image: "/manus-storage/organizer-shengpeng-ji_08146693.jpg" },
-  { name: "Xiulong Liu", role: "Co-organizer", affiliation: "Apple", image: "/manus-storage/organizer-xiulong-liu_6c5f2ec3.jpg" },
+  { name: "You (Neil) Zhang", role: "Lead Organizer", affiliation: "Dolby Laboratories · Telecom Paris", image: "/images/organizer-you-neil-zhang_dcc59d3b.jpg" },
+  { name: "Sun Jiachen Luo", role: "Co-organizer", affiliation: "Technical University of Munich", image: "/images/organizer-sun-jiachen-luo_8c156803.jpg" },
+  { name: "Minglun Han", role: "Program Chair", affiliation: "ByteDance Seed", image: "/images/organizer-minglun-han_fd003625.jpg" },
+  { name: "Tianyu Shi", role: "Co-organizer", affiliation: "McGill University", image: "/images/organizer-tianyu-shi_6e081234.jpg" },
+  { name: "Dongchao Yang", role: "Co-organizer", affiliation: "The Chinese University of Hong Kong", image: "/images/organizer-dongchao-yang_0eab3fdd.jpg" },
+  { name: "Jingyao Wu", role: "Co-organizer", affiliation: "MIT", image: "/images/organizer-jingyao-wu_64109546.jpg" },
+  { name: "Shengpeng Ji", role: "Co-organizer", affiliation: "Tencent Hunyuan", image: "/images/organizer-shengpeng-ji_08146693.jpg" },
+  { name: "Xiulong Liu", role: "Co-organizer", affiliation: "Apple", image: "/images/organizer-xiulong-liu_6c5f2ec3.jpg" },
 ];
 
 const ADVISORS = [
-  { name: "Shinji Watanabe", affiliation: "Carnegie Mellon University", image: "/manus-storage/advisor-shinji-watanabe_7b330041.webp" },
-  { name: "Jens Heitkaemper", affiliation: "Google DeepMind", image: "/manus-storage/advisor-jens-heitkaemper_969c3c20.jpg" },
-  { name: "Björn W. Schuller", affiliation: "TUM · Imperial College London", image: "/manus-storage/advisor-bjorn-schuller_827baa28.jpg" },
+  { name: "Shinji Watanabe", affiliation: "Carnegie Mellon University", image: "/images/advisor-shinji-watanabe_7b330041.webp" },
+  { name: "Jens Heitkaemper", affiliation: "Google DeepMind", image: "/images/advisor-jens-heitkaemper_969c3c20.jpg" },
+  { name: "Björn W. Schuller", affiliation: "TUM · Imperial College London", image: "/images/advisor-bjorn-schuller_827baa28.jpg" },
 ];
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
